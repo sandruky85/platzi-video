@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import playIcon from '../assets/static/play-icon.png';
 import plusIcon from '../assets/static/plus-icon.png';
 import '../assets/styles/components/CarouselItems.scss';
-import Carousel from './Carousel';
 
 const CarouselItem = ({ title, year, contentRating, duration, cover }) => (
   <div className='carousel-item'>
